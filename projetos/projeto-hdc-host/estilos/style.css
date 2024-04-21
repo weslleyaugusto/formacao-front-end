@@ -1,6 +1,7 @@
 @charset "UTF-8";
 body{
     width: 100%;
+    overflow-x: hidden;
 }
 *{
     padding: 0%;
@@ -270,7 +271,7 @@ textarea{
     display: block;
     margin: auto;
     border-color: rgba(0, 0, 0, 0.300);
-    width: 430px;
+    width: 60%;
     border-radius: 5px;
     height: 160px;
     padding: 10px;

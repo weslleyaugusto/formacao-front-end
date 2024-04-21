@@ -1,0 +1,182 @@
+.flex{
+    display: flex;
+    background-color: rgb(209, 217, 223);
+    margin-bottom: 40px;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    margin-bottom: 40px;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    background-color: lightgray;
+}
+.p{
+    background-color: pink;
+}
+.r{
+    background-color: red;
+}
+.b{
+    background-color: blue;
+}
+.y{
+    background-color: yellow;
+}
+.g{
+    background-color: green;
+}
+.v{
+    background-color: violet;
+}
+.k{
+    background-color: brown;
+}
+.s{
+    background-color: chocolate;
+}
+.w{
+    background-color: white;
+}
+.box{
+    width: 40%;
+    border: 1px solid black;
+}
+.justify-content{
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+}
+.around{
+    justify-content: space-around;
+    display: flex;
+}
+.between{
+    justify-content: space-between;
+    display: flex;
+}
+.end{
+    justify-content: end;
+    display: flex;
+}
+.align-center{
+    height: 200px;
+    align-items: center;
+    display: flex;
+    border: 2px solid blue;
+}
+.align-end{
+    height: 200px;
+    align-items: flex-end;
+    display: flex;
+    border: 2px solid blue;
+}
+.align-strech .box1{
+    height: auto;
+}
+.align-strech{
+    height: 200px;
+    align-items: stretch;
+    display: flex;
+    border: 2px solid blue;
+}
+.gap{
+    display: flex;
+    gap: 0px;
+    justify-content: center;
+    border: 1px solid blue;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.gap .box1{
+    width: 30%;
+}
+.order{
+    display: flex;
+    text-align: center;
+    line-height: 50px;
+    justify-content: center;
+}
+.order #box1{
+    order:6 ;
+}
+.order #box2{
+    order: 5;
+}
+.order #box3{
+    order: 2;
+    background-color: rgb(124, 124, 124);
+    color: white;
+}
+.order .box1{
+    width: 32%;
+}
+.grow{
+    display: flex;
+}
+.grow div{
+    height: 50px;
+    flex-grow: 1;
+    border: 1px solid red;
+}
+.grow .medium{
+    flex-grow: 2;
+}
+.grow .big{
+    flex-grow: 3;
+}
+.basis{
+    display: flex;
+}
+.basis .box1{
+    width: auto;
+    height: 50px;
+}
+.basis .medium, .basis .small{
+    flex-basis: 50px;
+}
+.basis .big{
+    flex-grow:1;
+}
+.shrink{
+    display: flex;
+}
+.shrink .box1{
+    flex-basis: 400px;
+    flex-grow: 1;
+    width: auto;
+}
+.shrink .medium{
+    flex-shrink: 2 ;
+}
+.shorthand-flex{
+    display: flex;
+}
+.shorthand-flex .box1{
+    width: auto;
+    flex: 1 1 50px;
+}
+.shorthand-flex .small{
+    flex: 3 2 100px;
+}
+.auto-alinhamento{
+    display: flex;
+    height: 300px;
+    border: 1px solid blue;
+    align-items: end;
+    justify-content: flex-end;
+}
+.auto-alinhamento .small{
+    align-self: start;
+}

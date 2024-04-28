@@ -76,6 +76,7 @@ img[src="imagens/logo_instagram.png"]{
 }
 .facebook a{
     text-decoration: none;
+    color: #551A8B;
 }
 .forgot-password{
     margin-top: 10px;

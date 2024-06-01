@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav-itens{
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 150px ;
+}
+#nav-itens a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+li{
+    list-style: none;
+}
+#iphone{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    border: 1px solid rgb(200, 200, 200);
+    align-items: center;
+}
+#iphone-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+#informations{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+#buy{
+    background-color: rgb(38, 85, 228);
+    border-radius: 20px;
+    padding:5px 10px;
+    color: #f5f4f4;
+    font-weight: bold;
+    border: none;
+}
+#discount{
+    background-color: rgb(240, 240, 240);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#discount a {
+    margin-left: 0px;
+    color: blue;
+}
+#titles{
+    text-align: center;
+}
+h1{
+    margin: 20px auto 50px auto;
+    font-size: 20px;
+}
+h2{
+    font-size: 50px;
+}
+#description{
+    text-align: center;
+    width: 400px;
+    margin: 30px auto;
+}
+#price{
+    color: rgb(113, 113, 113);
+    font-size: 20px;
+    text-align: center;
+    margin: 30px;
+}
+#buy-button{
+    background-color: rgb(38, 85, 228);
+    border-radius: 20px;
+    padding:10px 20px;
+    color: #f5f4f4;
+    font-weight: bold;
+    border: none;
+    font-size: 14px;
+}
+#button-container{
+    display: flex;
+    justify-content: center
+}
+#img-container{
+    display: flex;
+    justify-content: center;
+}
+#img-container img{
+    width: 70vw;
+    margin-top: 40px;
+    transition: 1s;
+}
+#colors-container{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    gap: 30px;
+    margin:50px;
+}
+.external{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(172, 172, 172);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px;
+    cursor: pointer;
+}
+.internal{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: green;
+}
+.color{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#green{
+    background-color: rgb(1, 82, 1);
+}
+#silver{
+    background-color: rgb(225, 225, 225);
+}
+#golden{
+    background-color: rgb(255, 236, 126);
+}
+#grafite{
+    background-color: rgb(72, 72, 72);
+}
+#blue{
+    background-color: rgb(172, 172, 255);
+}
+.text-color{
+    margin-top: 10px;
+}
+.active{
+    border:2px solid rgb(106, 106, 255);
+}

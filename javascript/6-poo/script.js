@@ -186,7 +186,7 @@ console.log(boieng[asa])
 console.log(boieng[piloto])
 */
 /*
-//13-grtter e setter
+//13-getter e setter
 class post{
     constructor(titulo,descricao,tags){
         this.titulo = titulo

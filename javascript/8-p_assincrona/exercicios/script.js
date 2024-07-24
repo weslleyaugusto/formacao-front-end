@@ -132,7 +132,7 @@ getWeatherCity().then((obj) => console.log(`A temperatura de ${obj.city} é ${ob
 .catch((erro) => console.log('Um erro ocorreu' , erro))
 .finally(() => console.log('Previsão concluida.'))
 */
-/*
+
 function getWeatherCity(city, temp) {
     return new Promise((resolve, reject) => {
         console.log('Fazendo requisição ao servidor...')
@@ -163,7 +163,7 @@ getWeatherCity('Piracema', 20).then((value) => console.log(value))
 setTimeout(() => {
     console.log('Requisição completada.')
 }, (2001))
-*/
+
 /*
 function getData(){
     return new Promise((resolve) => {//retorna uma promise resolvida
@@ -251,6 +251,7 @@ async function teste() {
 
 teste()
 */
+/*
 function* print(){
     yield 'Teste de generator'
     yield 'Teste de generator 2'
@@ -260,3 +261,4 @@ function* print(){
 console.log(print().next())
 console.log(print().next())
 console.log(print().next())
+*/

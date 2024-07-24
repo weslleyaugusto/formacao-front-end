@@ -1,0 +1,104 @@
+/*.container{
+    display: grid;
+    background-color: #333;
+    border: 3px solid red;
+    height: 35vh;
+    padding: 15px;
+    grid-template-columns: 100px auto 20%;Controla as colunas do container, sendo cada um dos valores usado para controlar os elementos filhos. Cada valor representa uma coluna
+    grid-template-rows: 80% 20%;/*Controla as linhas do container, sendo cada um dos valores usados para controlar os elementos filhos. Cada valor representa uma linha
+    gap: 5px;
+    column-gap: 15px;/*Muda o gap apenas das colunas
+    row-gap: 25px;/*Muda o gap apenas das linhas
+}
+.container div{
+    background-color: #ccc;
+    padding: 20px;
+    border: 1px solid blue;
+}*/
+
+.container{
+    display: grid;
+    padding: 15px;
+    border: 3px solid red;
+    background-color: #333;
+    gap: 5px;
+    grid-template-areas: 
+    'header header header header'
+    'sidebar content content content'
+    'footer footer footer footer'
+     ;
+}
+.container div{
+    background-color: #ccc;
+    padding: 20px;
+    border: 1px solid blue;
+}
+#header{
+    grid-area: header;
+}
+#sidebar{
+    grid-area: sidebar;
+    height: 50vh;
+}
+#content{
+    grid-area: content;
+    height: 50vh;
+}#footer{
+    grid-area: footer;
+}
+/*Alinhamento*/
+/*
+.container{
+    display: grid;
+    padding: 15px;
+    background-color: #333;
+    border: 3px solid red;
+    padding: 15px;
+    grid-template-columns: auto auto auto;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+}
+.container div{
+    background-color: #ccc;
+    border: 1px solid blue;
+    padding: 20px;
+}*/
+/* Itens individuais */
+/*
+.container{
+    display: grid;
+    padding: 15px;
+    background-color: #333;
+    border: 3px solid red;
+    grid-template-columns: auto auto auto;
+}
+.container div{
+    background-color: #ccc;
+    border: 1px solid blue;
+    padding: 20px;
+}
+#one{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#two{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+#three{
+    justify-self: end;
+    height: 200px;
+}
+#five{
+    justify-self: start;
+    height: 200px;
+}
+#four{
+    align-self: center;
+    height: 100px;
+}
+#six{
+    align-self: end;
+}
+    */
